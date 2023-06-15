@@ -1,0 +1,87 @@
+object Perkenalan: TPerkenalan
+  Left = 192
+  Top = 125
+  Width = 870
+  Height = 450
+  Caption = 'Perkenalan'
+  Color = clRed
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 136
+    Top = 64
+    Width = 207
+    Height = 25
+    Caption = 'Masukkan Nama Anda'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtnama: TEdit
+    Left = 136
+    Top = 104
+    Width = 121
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnChange = edtnamaChange
+  end
+  object Button1: TButton
+    Left = 288
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object pnl1: TPanel
+    Left = 136
+    Top = 160
+    Width = 393
+    Height = 41
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 400
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Keluar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+end
